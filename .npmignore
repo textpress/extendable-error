@@ -1,0 +1,6 @@
+.idea/
+coverage/
+**/__tests__
+
+.*
+yalc.lock
