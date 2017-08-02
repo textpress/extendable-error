@@ -3,8 +3,16 @@
   "version": "0.2.1",
   "description": "Extendable error class for nodejs",
   "main": "lib/extendable-error.js",
-  "author": "textpress",
+  "author": "Textpress",
   "license": "MIT",
+  "homepage": "https://github.com/textpress/extendable-error",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textpress/extendable-error.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textpress/extendable-error/issues"
+  },
   "scripts": {
     "test": "jest --coverage --colors"
   },
