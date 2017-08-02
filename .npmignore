@@ -4,3 +4,4 @@ coverage/
 
 .*
 yalc.lock
+yarn.lock
