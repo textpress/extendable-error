@@ -1,6 +1,6 @@
 {
   "name": "@textpress/extendable-error",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Extendable error class for nodejs",
   "main": "lib/extendable-error.js",
   "author": "Textpress",
