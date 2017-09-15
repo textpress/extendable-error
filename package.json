@@ -14,7 +14,8 @@
         "url": "https://github.com/textpress/extendable-error/issues"
     },
     "scripts": {
-        "test": "jest --coverage --colors"
+        "test": "jest --coverage --colors",
+        "bump": "gulp bump --part"
     },
     "jest": {
         "coverageDirectory": "<rootDir>/.jest-coverage",
@@ -26,6 +27,7 @@
     "devDependencies": {
         "@textpress/babel-preset-textpress": "^0.1.0",
         "@textpress/eslint-config-textpress": "^0.0.6",
+        "@textpress/gulp-bump-version": "^0.2.0",
         "eslint": "^4.6.1",
         "jest": "^21.1.0"
     }
