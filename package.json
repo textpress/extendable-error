@@ -17,8 +17,11 @@
         "test": "jest --coverage --colors"
     },
     "jest": {
-        "coverageDirectory": "<rootDir>/coverage",
-        "testEnvironment": "node"
+        "coverageDirectory": "<rootDir>/.jest-coverage",
+        "testEnvironment": "node",
+        "testMatch": [
+            "**/__tests__/**/*.test.js"
+        ]
     },
     "devDependencies": {
         "@textpress/babel-preset-textpress": "^0.1.0",
