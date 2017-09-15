@@ -16,7 +16,7 @@
     "scripts": {
         "test": "jest --coverage --colors",
         "bump": "gulp bump --part",
-        "ci-release-note": "conventional-github-releaser -p eslint",
+        "ci-release-notes": "conventional-github-releaser -p eslint",
         "ci-test": "jest"
     },
     "jest": {
