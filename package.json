@@ -15,7 +15,8 @@
     },
     "scripts": {
         "test": "jest --coverage --colors",
-        "bump": "gulp bump --part"
+        "bump": "gulp bump --part",
+        "ci-release-note": "conventional-github-releaser -p eslint"
     },
     "jest": {
         "coverageDirectory": "<rootDir>/.jest-coverage",
@@ -28,6 +29,7 @@
         "@textpress/babel-preset-textpress": "^0.1.0",
         "@textpress/eslint-config-textpress": "^0.0.6",
         "@textpress/gulp-bump-version": "^0.2.0",
+        "conventional-github-releaser": "^1.1.12",
         "eslint": "^4.6.1",
         "jest": "^21.1.0"
     }
