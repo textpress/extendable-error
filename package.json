@@ -16,7 +16,8 @@
     "scripts": {
         "test": "jest --coverage --colors",
         "bump": "gulp bump --part",
-        "ci-release-note": "conventional-github-releaser -p eslint"
+        "ci-release-note": "conventional-github-releaser -p eslint",
+        "ci-test": "jest"
     },
     "jest": {
         "coverageDirectory": "<rootDir>/.jest-coverage",
